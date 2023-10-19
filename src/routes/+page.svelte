@@ -11,24 +11,23 @@
   
   <main>
     
-      <section >
+    <section>
         <div class="hero py-20 text-center">
-            <h1 class="hero-content text-4xl font-bold">
-              Let's make wine together!
-            </h1>
-            <h2 class="text-2xl font-light mt-4">
-              What kind of wine woud you like to make today?
-            </h2>
-            <button class="border-black bg-red-700 border text-white rounded-md font-medium py-2 px-4 transition duration-300 ease-in-out mt-4 mx-6" on:click={startStory}>Red</button>
-            <button class="border-black bg-yellow-100 border rounded-md font-medium py-2 px-4 transition duration-300 ease-in-out mt-4 mx-6" on:click={startStory}>White</button>
-            <p class="p-6 m-10 border rounded-xl">
-               I built this storytelling app for a job application to <strong>Outside+</strong> to demonstrate my ability to explain a complex process in which I have expertise.
-            </p>  
+          <h1 class="hero-content text-4xl font-bold">
+            Let's make wine together!
+          </h1>
+          <h2 class="text-2xl font-light mt-4">
+            What kind of wine would you like to make today?
+          </h2>
+          <button class="border-black bg-red-700 border text-white rounded-md font-medium py-2 px-4 transition duration-300 ease-in-out transform hover:scale-105 mt-4 mx-6" on:click={startStory}>Red</button>
+          <button class="border-black bg-yellow-100 border rounded-md font-medium py-2 px-4 transition duration-300 ease-in-out transform hover:scale-105 mt-4 mx-6" on:click={startStory}>White</button>
+          <p class="p-6 m-10 border rounded-xl">
+            I built this storytelling app for a job application to <strong>Outside+</strong> to demonstrate my ability to explain a complex process in which I have expertise.
+          </p>
         </div>
-          <div>
-          
-          </div>
+        <div></div>
       </section>
+      
    
   </main>
   

@@ -9,7 +9,7 @@
     import { steps } from '../../lib/redsteps.js';
 </script>
 
-<section transition:fade={{ duration: 1000 }}>
+<section in:fade={{ duration: 1000 }}>
     <div class="hero py-20 text-center">
         <h1 class="text-4xl font-bold">
           Let's make some red wine together!
