@@ -20,7 +20,10 @@
         <h3 class="text-xl text-gray-500 mt-4">
           Scroll Down to Begin
         </h3>
-      </div>
+        <div class="p-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24" {...$$props}><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m7-7l-7 7l-7-7"/></svg>
+        </div>
+    </div>
 
   <div class="section-container">
     <div class="steps-container">
@@ -42,7 +45,7 @@
       Thanks for letting me share my expertise and passion!
     </h1>
     <h2 class="text-2xl mt-4">
-      <a href="https://chasethomasmartin.com/" target="_blank" class="text-blue-500 hover:underline">Chase Martin Dev</a> created on 10/19/23 for Outside+
+      <a href="https://chasethomasmartin.com/" target="_blank" class="text-blue-500 hover:underline">Chase Martin Dev</a> created October 2023 for Outside+
     </h2>
   </div>
 </section>
@@ -53,7 +56,7 @@
 	}
 	
 	.hero {
-		height: 80vh;
+		height: 100vh;
 		display: flex;
 		place-items: center;
 		flex-direction: column;
@@ -67,7 +70,7 @@
 
   .sticky {
     position: sticky;
-    top: 10%;
+    top: 0;
 		flex: 1 1 60%;
     width: 60%;
   }
@@ -112,12 +115,29 @@
   .steps-container,
   .sticky {
     height: 100%;
+    right: 0;
   }
 
   .steps-container {
     flex: 1 1 40%;
     z-index: 10;
   }
+
+  svg {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 	
 /* Comment out the following line to always make it 'text-on-top' */
   @media screen and (max-width: 768px) {
