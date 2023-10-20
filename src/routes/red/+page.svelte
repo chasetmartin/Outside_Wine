@@ -1,8 +1,9 @@
 <script>
     import { fade } from 'svelte/transition';
+    import { goto } from '$app/navigation';
 
     import Scrolly from '../../lib/scrolly.svelte';
-    import Image from '../../lib/image.svelte';
+    import Imagered from '../../lib/imagered.svelte';
         
     let value;
     
@@ -30,14 +31,17 @@
       <Scrolly bind:value>
         {#each steps as text, i}
           <div class="step" class:active={value === i}>
-            <div class="step-content w-4/5 p-6 border rounded shadow-xl transition duration-500 ease-in-out">{@html text}</div>
+            <div class="step-content w-4/5 p-6 border rounded shadow-xl transition duration-500 ease-in-out">{@html text}
+              <svg class="m-4" xmlns="http://www.w3.org/2000/svg" width="0.8em" height="0.8em" viewBox="0 0 24 24" {...$$props}><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m7-7l-7 7l-7-7"/></svg>
+
+            </div>
           </div>
         {/each}
         <div class="spacer" />
       </Scrolly>
     </div>
     <div class="sticky">
-      <Image step={value} />
+      <Imagered step={value} />
     </div>
   </div>
 	<div class="hero py-20 text-center">
@@ -47,6 +51,8 @@
     <h2 class="text-2xl mt-4">
       <a href="https://chasethomasmartin.com/" target="_blank" class="text-blue-500 hover:underline">Chase Martin Dev</a> created October 2023 for Outside+
     </h2>
+    <button class="border-black bg-slate-100 border rounded-md font-medium py-2 px-4 transition duration-300 ease-in-out transform hover:scale-105 mt-4 mx-6" on:click={() => goto("/")}>Return Home</button>
+
   </div>
 </section>
 
@@ -90,22 +96,10 @@
   }
 
   .step-content {
-    /* font-size: 1rem; */
+    font-size: 1.5rem;
     background: whitesmoke;
     color: #ccc;
-    /* border-radius: 5px;
-    padding: .5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    /* transition: background 500ms ease;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
-    text-align: left;
-		width: 75%;
-		margin: auto;
-		max-width: 500px; */
   }
-
 
 	.step.active .step-content {
 		background: white;
@@ -125,7 +119,7 @@
 
   svg {
   animation: pulse 2s infinite;
-}
+  }
 
 @keyframes pulse {
   0% {
@@ -137,9 +131,9 @@
   100% {
     transform: scale(1);
   }
-}
+  }
 	
-/* Comment out the following line to always make it 'text-on-top' */
+/* Mobile text on top of images */
   @media screen and (max-width: 768px) {
     .section-container {
       flex-direction: column-reverse;

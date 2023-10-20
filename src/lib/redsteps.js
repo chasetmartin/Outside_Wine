@@ -1,7 +1,13 @@
 export const steps = [
-    "<p>Step 1: Let's harvest some red grapes from a beautiful vineyard. I'm partial to Pinot Noir from Oregon, so let's journey into an Oregon cellar!</p>",
-
-"<p>Step 2: Let's bring our grapes to the winery and run them down the processing line.</p><p>We'll sort out unwanted material, destem some of the clusters, add some sulfur dioxide to kill unwanted bacteria, and fill our tank of choice. </p>",
-
-"<p>Step 3: Once our grapes are in a tank, we hook up a sanitized pump in order to perform our first pumpover.</p><p>This homogenizes our must (pre/mid-ferment juice) to ensure accurate laboratory analysis</p><p>Let's send a sample off to the lab!</p>",
+  "<h4>Step 1:</h4> Let's kick things off with a fantastic grape harvest in a picturesque vineyard. I have a soft spot for Pinot Noir from Oregon, so we're heading to an Oregon cellar!",
+  "<h4>Step 2:</h4> Next up, we're taking our precious grapes to the winery for a thrilling ride down the processing line. We'll work some magic – sorting out unwanted bits, destemming clusters, adding sulfur dioxide to keep unwanted bacteria at bay, and choosing the perfect tank to host our grapes.",
+  "<h4>Step 3:</h4> Once our grapes are nestled in a tank, it's time for some action. We're hooking up a sanitized pump to perform our very first pumpover. This ensures our must (that's the pre- and mid-ferment juice) is perfectly mixed for accurate lab analysis. And yes, we're even sending a sample off to the lab!",
+  "<h4>Step 4:</h4> Exciting news – our lab results are in, and they're looking fantastic! Brix (sugar content): 22.5, pH (acidity): 3.35, and YAN (nutrients): 180. We can now choose to inoculate our tank with a wine yeast or let the natural yeast in the winery do its magic – it's a win-win situation!",
+  "<h4>Step 5:</h4> The fermentation party has begun, and it's in full swing! Our Brix is dropping quickly, a clear sign that our yeast is busy converting sugar into alcohol and enjoying a feast of nutrients.",
+  "<h4>Step 6:</h4> Now, it's all about cap management. We're making sure the grape cap on top of our fermentation is always nice and wet. Expect 1-2 pumpovers or punch downs each day – it's all part of the fun!",
+  "<h4>Step 7:</h4> Our ferment is starting to slow down, and our Brix is at a mere 0.5. The yeast have done a fantastic job converting most of the sugar into alcohol. It's time to press our wine off the skins. We'll pump all the must into a fresh tank and carefully scoop out the solids for the press.",
+  "<h4>Step 8:</h4> Here's where the magic continues. We're pressing the skins, taking frequent sips to make sure we don't extract too many bitter phenolics. Now that the wine is free from its skin embrace, we're letting it finish its last bit of primary fermentation right in the tank.",
+  "<h4>Step 9:</h4> Welcome to the barrel party! Our Pinot Noir is getting pumped into barrels, where it will work its magic with malolactic fermentation and soak up all the goodness from 12 months in 50% new French oak.",
+  "<h4>Step 10:</h4> After those 12 magical months, it's time to rack (move) our wine out of the barrels and get ready for the final act. We'll blend it with other barrels of the same wine, give it a gentle filter, and send it off into bottles!",
+  "<h4>Voilà!</h4> There you have it, the fabulous Outside Pinot Noir in a bottle, ready to delight your senses! Potential future endeavor for Outside+: wine packaging fit for bike water bottle cages, anyone? :) "
 ];

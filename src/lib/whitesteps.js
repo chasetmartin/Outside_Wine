@@ -1,0 +1,14 @@
+export const steps = [
+    "<h4>Step 1:</h4> We kick off our adventure with a Chardonnay harvest. Picture the Eola Amity Hills in Oregon, where our luscious Chardonnay grapes bask in the sun. It's time to bring them into our winemaking journey!",
+    "<h4>Step 2:</h4> With our grape-filled bounty, we're heading to the winery for the magic to begin. Every grape gets a careful once-over to ensure perfection. We load them into our wine press, add a touch of sulfur dioxide as a protective shield, and gently extract the precious juice.",
+    "<h4>Step 3:</h4> We've got our juice, and it's time to set the stage for greatness. We decide just the right amount of oxygen to introduce, then carefully pump it into a tank to settle overnight. A perfectly mixed concoction awaits lab analysis, and, of course, a sample is on its way to the lab!",
+    "<h4>Step 4:</h4> Fantastic news! The lab results are in, and they're beyond exceptional. Brix (sugar content): 21.5, pH (acidity): 3.10, YAN (nutrients): 145. With these stellar stats, this wine is destined for stardom!",
+    "<h4>Step 5:</h4> The next day, our juice moves into its fermentation tank after its peaceful night of settling. We decide how many precious solids (bourb) should accompany the juice based on one reliable test: tasting the bourb!",
+    "<h4>Step 6:</h4> Now, it's all about precise temperature management and the potential addition of a yeast culture. We ensure that the fermentation kicks off smoothly in our tank. We keep a watchful eye on the Brix (sugar content) and temperature daily.",
+    "<h4>Step 7:</h4> It's time for a barrel party! Our Chardonnay has big dreams, and we're here to fulfill them. Gently, we transfer the fermenting Chardonnay into  30% new French oak barrels, ready to age gracefully in the heart of our fermentation room.",
+    "<h4>Step 8:</h4> Now, we await the continuation of the magic. Our lovely Chardonnay barrels snuggle together in a cozy atmosphere. After primary fermentation and malolactic fermentation are complete, we introduce sulfur dioxide to safeguard our wine. We cool the room for a long, restful nap.",
+    "<h4>Step 9:</h4> After 12 months of blissful aging, it's time to let our Chardonnay shine. We carefully rack (move) it out of the barrels and begin the blending process. The wine from various barrels unites in harmony. After meticulous filtration, it's ready to be bottled!",
+    "<h4>Voilà!</h4> Behold, a bottle of exquisite Outside Chardonnay, a testament to the artistry of winemaking! Obviously best enjoyed in the outdoors in the company of good friends."
+  ];
+  
+  
