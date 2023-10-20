@@ -1,38 +1,37 @@
-# create-svelte
+# Outside Winemaking Application
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Overview
 
-## Creating a project
+This storytelling application is a project created for a job application with Outside Interactive Inc. It serves as a demonstration of programming skills and the ability to explain a complex topic, winemaking, in an engaging and interactive way. The application allows users to explore the intricate process of winemaking step by step, offering a fast, immersive, and fun experience.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Application Link
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Explore the winemaking storytelling application at [outside-wine.netlify.app](https://outside-wine.netlify.app).
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Features
 
-## Developing
+- **Scrollytelling:** The application employs a scrollytelling technique, guiding users through the winemaking process as they scroll down the page. Each scroll reveals a new step in the journey.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Engaging Content:** The application presents winemaking in an engaging and informative manner, breaking down the complex process into easy-to-understand steps.
 
-```bash
-npm run dev
+- **Visuals and Media:** The application includes a combination of images and videos to illustrate the various stages of winemaking, making it an immersive experience - many of the visuals are from my own photo/video library.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Usage
 
-## Building
+1. Access the application using the link provided above.
 
-To create a production version of your app:
+2. Begin scrolling to explore the winemaking process step by step.
 
-```bash
-npm run build
-```
+3. Each section reveals new information and visuals, enhancing your understanding of winemaking.
 
-You can preview the production build with `npm run preview`.
+## Technologies Used
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [Svelte](https://svelte.dev/): The application is built using the Svelte JavaScript framework, which allows easy binding of variables created by the Intersection Observer API to app component, creating the scrolling story experience.
+
+- [Netlify](https://www.netlify.com/): The application is hosted on Netlify, ensuring a seamless and performant web experience.
+
+## About the Author
+
+This project was developed by Chase Martin. It showcases both programming skills and a passion for winemaking. If you have any questions or would like to get in touch, find me on [LinkedIn](https://www.linkedin.com/in/chase-martin-dev/) .
+
+Thank you for exploring the application!
