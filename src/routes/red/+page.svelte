@@ -2,7 +2,7 @@
     import { fade } from 'svelte/transition';
     import { goto } from '$app/navigation';
 
-    import Scrolly from '../../lib/scrolly.svelte';
+    import Scrolling from '../../lib/scrolling.svelte';
     import Imagered from '../../lib/imagered.svelte';
         
     let value;
@@ -28,7 +28,7 @@
 
   <div class="section-container">
     <div class="steps-container">
-      <Scrolly bind:value>
+      <Scrolling bind:value>
         {#each steps as text, i}
           <div class="step" class:active={value === i}>
             <div class="step-content w-4/5 p-6 border rounded shadow-xl transition duration-500 ease-in-out">{@html text}
@@ -38,7 +38,7 @@
           </div>
         {/each}
         <div class="spacer" />
-      </Scrolly>
+      </Scrolling>
     </div>
     <div class="sticky">
       <Imagered step={value} />
@@ -141,6 +141,9 @@
     .sticky {
       width: 95%;
 			margin: auto;
+    }
+    .step-content {
+      font-size: 1rem;
     }
   }
 </style>
