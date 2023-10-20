@@ -26,7 +26,7 @@ Explore the winemaking storytelling application at [outside-wine.netlify.app](ht
 
 ## Technologies Used
 
-- [Svelte](https://svelte.dev/): The application is built using the Svelte JavaScript framework, which allows easy binding of variables created by the Intersection Observer API to app component, creating the scrolling story experience.
+- [Svelte](https://svelte.dev/): The application is built using the Svelte JavaScript framework, which allows easy binding of variables created by the Intersection Observer API to app components, creating the scrolling story experience.
 
 - [Netlify](https://www.netlify.com/): The application is hosted on Netlify, ensuring a seamless and performant web experience.
 
