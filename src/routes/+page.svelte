@@ -30,7 +30,13 @@
       <p>
         October 2023 
       </p>
-      <a class="text-blue-500 hover:underline" href="https://chasethomasmartin.com">chasethomasmartin.com</a>
+      <hr class="w-2/5 p-2 mx-auto">
+      <p>
+        Check out the code here:
+      </p>
+      <a class="text-blue-500 hover:underline" href="https://github.com/chasetmartin/Outside_Wine" target="_blank">GitHub</a>
+      <p>Or my portfolio here:</p>
+      <a class="text-blue-500 hover:underline" href="https://chasethomasmartin.com" target="_blank">chasethomasmartin.com</a>
     </div>
     <div class="hero-overlay"></div>
   </section>
