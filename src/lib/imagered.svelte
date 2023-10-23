@@ -24,7 +24,7 @@
 <div class="text-center">
     <div class="rounded-lg mx-auto overflow-hidden opacity-80 w-9/12 h-auto" in:blur={{ duration: 800 }}>
         {#if step === 1 || step === 2 || step === 5 || step === 7 || step === 8 || step === 9}
-            <video controls autoplay loop muted class="w-full">
+            <video controls autoplay muted playsinline loop class="w-full">
                 <source src={media[step]} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
