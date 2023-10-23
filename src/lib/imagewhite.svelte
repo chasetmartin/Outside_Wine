@@ -8,13 +8,13 @@
     let media = [
         "/white1.jpg",
         "/white2.gif",
-        "/white3.mov",
+        "/white3.gif",
         "/red4.jpg",
-        "/white5.mov",
-        "/white6.mov",
-        "/white7.mov",
+        "/white5.gif",
+        "/white6.gif",
+        "/white7.gif",
         "/white8.jpg",
-        "/red10.mov",
+        "/red10.gif",
         "/white11.jpg"
     ];
 </script>
@@ -22,15 +22,8 @@
 {#key step}
 <div class="text-center">
     <div class="rounded-lg mx-auto overflow-hidden opacity-80 w-9/12 h-auto" in:blur={{ duration: 800 }}>
-        {#if step === 2 || step === 4 || step === 5 || step === 6 || step === 8}
-            <video controls autoplay muted playsinline loop class="w-full">
-                <source src={media[step]} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-        {:else if step === 1 }
+        {#if step === 0 || step === 1 || step === 2 || step === 3 || step === 4 || step === 5 || step === 6 || step === 7 || step === 8 || step === 9}
             <img src={media[step]} alt="gif!" class="w-full" />
-        {:else if step === 0 || step === 3 || step === 7 || step === 9}
-            <img src={media[step]} alt="grapes!" class="w-full" />
         {:else}
         <div></div>    
         {/if}
