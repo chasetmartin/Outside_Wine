@@ -7,7 +7,7 @@
 
     let media = [
         "/white1.jpg",
-        "/white2.webm",
+        "/white2.gif",
         "/white3.mov",
         "/red4.jpg",
         "/white5.mov",
@@ -28,10 +28,7 @@
                 Your browser does not support the video tag.
             </video>
         {:else if step === 1 }
-            <video controls autoplay muted playsinline loop class="w-full">
-                <source src={media[step]} type="video/webm" />
-                Your browser does not support the video tag.
-            </video>
+            <img src={media[step]} alt="gif!" class="w-full" />
         {:else if step === 0 || step === 3 || step === 7 || step === 9}
             <img src={media[step]} alt="grapes!" class="w-full" />
         {:else}
