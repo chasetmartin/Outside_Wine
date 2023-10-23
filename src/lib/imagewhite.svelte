@@ -7,7 +7,7 @@
 
     let media = [
         "/white1.jpg",
-        "/white2.mov",
+        "/white2.webm",
         "/white3.mov",
         "/red4.jpg",
         "/white5.mov",
@@ -22,9 +22,14 @@
 {#key step}
 <div class="text-center">
     <div class="rounded-lg mx-auto overflow-hidden opacity-80 w-9/12 h-auto" in:blur={{ duration: 800 }}>
-        {#if step === 1 || step === 2 || step === 4 || step === 5 || step === 6 || step === 8}
+        {#if step === 2 || step === 4 || step === 5 || step === 6 || step === 8}
             <video controls autoplay muted playsinline loop class="w-full">
                 <source src={media[step]} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        {:else if step === 1 }
+            <video controls autoplay muted playsinline loop class="w-full">
+                <source src={media[step]} type="video/webm" />
                 Your browser does not support the video tag.
             </video>
         {:else if step === 0 || step === 3 || step === 7 || step === 9}
