@@ -3,6 +3,7 @@
 ## Overview
 
 This storytelling application is a project created for a job application with Outside Interactive Inc. It serves as a demonstration of programming skills and the ability to explain a complex topic, winemaking, in an engaging and interactive way. The application allows users to explore the intricate process of winemaking step by step, offering a fast, immersive, and fun experience.
+* This app is not associated with Outside Interactive *
 
 ## Application Link
 
